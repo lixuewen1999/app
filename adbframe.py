@@ -89,7 +89,6 @@ if __name__ == '__main__':
     adb.find_xpath('//node[@resource-id="com.miui.calculator:id/btn_equal_s"]').clikc()
     actual = adb.find_xpath('//node[@resource-id="com.miui.calculator:id/result"]').get_attribute('text')
     adb.assert_equal('= 2',actual)
-    adb.find_xpath('//node[@resource-id="com.miui.calculator:id/btn_6_s"]').clikc()
 
 
 
