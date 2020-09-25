@@ -1,0 +1,147 @@
+2020-09-23 07:55:34:588 [Appium] Welcome to Appium v1.18.2
+2020-09-23 07:55:34:590 [Appium] Non-default server args:
+2020-09-23 07:55:34:592 [Appium]   address: 127.0.0.1
+2020-09-23 07:55:34:593 [Appium]   port: 5001
+2020-09-23 07:55:34:593 [Appium]   bootstrapPort: 8001
+2020-09-23 07:55:34:594 [Appium]   logFile: E:\Pythonworkspace\woniu44\day31\appiumcloud\log\127.0.0.1_62001
+2020-09-23 07:55:34:595 [Appium]   loglevel: info
+2020-09-23 07:55:34:596 [Appium]   logTimestamp: true
+2020-09-23 07:55:34:597 [Appium]   platformVersion: 5.1.1
+2020-09-23 07:55:34:598 [Appium]   udid: 127.0.0.1:62001
+2020-09-23 07:55:34:599 [Appium] Deprecated server args:
+2020-09-23 07:55:34:600 [Appium]   --platform-version => --default-capabilities '{"platformVersion":"5.1.1"}'
+2020-09-23 07:55:34:601 [Appium]   -U,--udid => --default-capabilities '{"udid":"127.0.0.1:62001"}'
+2020-09-23 07:55:34:602 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2020-09-23 07:55:34:602 [Appium]   platformVersion: 5.1.1
+2020-09-23 07:55:34:603 [Appium]   udid: 127.0.0.1:62001
+2020-09-23 07:55:34:676 [Appium] Appium REST http interface listener started on 127.0.0.1:5001
+2020-09-23 07:55:34:831 [HTTP] --> POST /wd/hub/session
+2020-09-23 07:55:34:832 [HTTP] {"capabilities":{"firstMatch":[{"platformName":"Android","appium:platformVersion":"5.1.1","appium:deviceName":"Appium","appium:noReset":true,"appium:appPackage":"com.miui.calculator","appium:appActivity":".cal.CalculatorActivity","appium:udid":"127.0.0.1:62001","appium:unicodekeyboard":true}]},"desiredCapabilities":{"platformName":"Android","platformVersion":"5.1.1","deviceName":"Appium","noReset":true,"appPackage":"com.miui.calculator","appActivity":".cal.CalculatorActivity","udid":"127.0.0.1:62001","unicodekeyboard":true}}
+2020-09-23 07:55:34:860 [Appium] 
+2020-09-23 07:55:34:861 [Appium] ======================================================================
+2020-09-23 07:55:34:861 [Appium]   DEPRECATION WARNING:
+2020-09-23 07:55:34:862 [Appium] 
+2020-09-23 07:55:34:863 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-09-23 07:55:34:864 [Appium]   capabilities for this Android session
+2020-09-23 07:55:34:866 [Appium] 
+2020-09-23 07:55:34:867 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-09-23 07:55:34:867 [Appium]   UiAutomator2 Driver
+2020-09-23 07:55:34:868 [Appium] 
+2020-09-23 07:55:34:869 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-09-23 07:55:34:869 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-09-23 07:55:34:870 [Appium]   platforms
+2020-09-23 07:55:34:871 [Appium] 
+2020-09-23 07:55:34:872 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-09-23 07:55:34:873 [Appium]   'automationName=UiAutomator1'
+2020-09-23 07:55:34:873 [Appium] 
+2020-09-23 07:55:34:874 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-09-23 07:55:34:874 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-09-23 07:55:34:875 [Appium] 
+2020-09-23 07:55:34:876 [Appium]   For more information about drivers, please visit 
+2020-09-23 07:55:34:877 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-09-23 07:55:34:878 [Appium]   'Drivers' menu
+2020-09-23 07:55:34:879 [Appium] 
+2020-09-23 07:55:34:879 [Appium] ======================================================================
+2020-09-23 07:55:34:880 [Appium] 
+2020-09-23 07:55:35:939 [Appium] Appium v1.18.2 creating new AndroidUiautomator2Driver (v1.56.1) session
+2020-09-23 07:55:35:974 [BaseDriver] The following capabilities were provided, but are not recognized by Appium:
+2020-09-23 07:55:35:975 [BaseDriver]   unicodekeyboard
+2020-09-23 07:55:35:977 [BaseDriver] Session created with session id: 75b92757-890b-40da-9a9b-e83c0804472e
+2020-09-23 07:55:35:978 [UiAutomator2] Starting 'com.miui.calculator' directly on the device
+2020-09-23 07:55:36:061 [ADB] Found 0 'build-tools' folders under 'E:\Android\android-sdk' (newest first):
+2020-09-23 07:55:36:063 [ADB] Using 'adb.exe' from 'E:\Android\android-sdk\platform-tools\adb.exe'
+2020-09-23 07:55:36:193 [AndroidDriver] Retrieving device list
+2020-09-23 07:55:36:370 [AndroidDriver] Using device: 127.0.0.1:62001
+2020-09-23 07:55:36:377 [ADB] Using 'adb.exe' from 'E:\Android\android-sdk\platform-tools\adb.exe'
+2020-09-23 07:55:36:668 [AndroidDriver] No app sent in, not parsing package/activity
+2020-09-23 07:55:37:683 [ADB] Caching the application at 'C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' to '/data/local/tmp/appium_cache/ca734d53854fd1368352eb1ad91806dc6e03622f.apk'
+2020-09-23 07:55:38:250 [ADB] The upload of 'settings_apk-debug.apk' (1.15 MB) took 567ms
+2020-09-23 07:55:39:670 [ADB] The installation of 'settings_apk-debug.apk' took 1419ms
+2020-09-23 07:55:39:672 [ADB] Cannot install/upgrade 'io.appium.settings' because of 'pkg: /data/local/tmp/appium_cache/ca734d53854fd1368352eb1ad91806dc6e03622f.apk
+2020-09-23 07:55:39:672 [ADB] Failure [INSTALL_FAILED_UPDATE_INCOMPATIBLE]'. Trying full reinstall
+2020-09-23 07:55:42:796 [ADB] io.appium.settings was successfully uninstalled
+2020-09-23 07:55:43:035 [ADB] The application at 'C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk' is already cached to '/data/local/tmp/appium_cache/ca734d53854fd1368352eb1ad91806dc6e03622f.apk'
+2020-09-23 07:55:44:607 [ADB] The installation of 'settings_apk-debug.apk' took 1547ms
+2020-09-23 07:55:44:806 [AndroidDriver] Granting permissions SET_ANIMATION_SCALE,CHANGE_CONFIGURATION,ACCESS_FINE_LOCATION to 'io.appium.settings'
+2020-09-23 07:55:54:276 [ADB] Cannot use apksigner tool for signature verification. Original error: Could not find 'apksigner.jar' in ["E:\\Android\\android-sdk\\platform-tools\\apksigner.jar","E:\\Android\\android-sdk\\emulator\\apksigner.jar","E:\\Android\\android-sdk\\cmdline-tools\\latest\\bin\\apksigner.jar","E:\\Android\\android-sdk\\tools\\apksigner.jar","E:\\Android\\android-sdk\\tools\\bin\\apksigner.jar","E:\\Android\\android-sdk\\apksigner.jar"]. Do you have Android Build Tools installed at 'E:\Android\android-sdk'?
+2020-09-23 07:55:55:216 [ADB] Cannot use apksigner tool for signature verification. Original error: Could not find 'apksigner.jar' in ["E:\\Android\\android-sdk\\platform-tools\\apksigner.jar","E:\\Android\\android-sdk\\emulator\\apksigner.jar","E:\\Android\\android-sdk\\cmdline-tools\\latest\\bin\\apksigner.jar","E:\\Android\\android-sdk\\tools\\apksigner.jar","E:\\Android\\android-sdk\\tools\\bin\\apksigner.jar","E:\\Android\\android-sdk\\apksigner.jar"]. Do you have Android Build Tools installed at 'E:\Android\android-sdk'?
+2020-09-23 07:55:55:924 [UiAutomator2] Server packages are going to be (re)installed
+2020-09-23 07:55:56:234 [ADB] Caching the application at 'C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.12.2.apk' to '/data/local/tmp/appium_cache/69301eca3583b3705161065bbf3c9c07a641781b.apk'
+2020-09-23 07:55:57:536 [ADB] The upload of 'appium-uiautomator2-server-v4.12.2.apk' (1.93 MB) took 1301ms
+2020-09-23 07:55:58:983 [ADB] The installation of 'appium-uiautomator2-server-v4.12.2.apk' took 1446ms
+2020-09-23 07:55:59:225 [ADB] Caching the application at 'C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' to '/data/local/tmp/appium_cache/cb10aba5e375abd2459ecc80d36b2f1374ec77af.apk'
+2020-09-23 07:55:59:772 [ADB] The upload of 'appium-uiautomator2-server-debug-androidTest.apk' (755.10 KB) took 546ms
+2020-09-23 07:56:01:063 [ADB] The installation of 'appium-uiautomator2-server-debug-androidTest.apk' took 1289ms
+2020-09-23 07:56:03:323 [UiAutomator2] Starting UIAutomator2 server 4.12.2
+2020-09-23 07:56:03:323 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.12.2.apk' and test from 'C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2020-09-23 07:56:03:324 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2020-09-23 07:56:04:356 [WD Proxy] Error: read ECONNRESET
+2020-09-23 07:56:04:356 [WD Proxy]     at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+2020-09-23 07:56:05:368 [WD Proxy] Error: read ECONNRESET
+2020-09-23 07:56:05:368 [WD Proxy]     at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+2020-09-23 07:56:06:378 [WD Proxy] Error: read ECONNRESET
+2020-09-23 07:56:06:379 [WD Proxy]     at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+2020-09-23 07:56:07:639 [WD Proxy] Determined the downstream protocol as 'W3C'
+2020-09-23 07:56:07:880 [AndroidDriver] Screen already unlocked, doing nothing
+2020-09-23 07:56:07:881 [UiAutomator2] Starting 'com.miui.calculator/.cal.CalculatorActivity and waiting for 'com.miui.calculator/.cal.CalculatorActivity'
+2020-09-23 07:56:10:617 [Appium] New AndroidUiautomator2Driver session created successfully, session 75b92757-890b-40da-9a9b-e83c0804472e added to master session list
+2020-09-23 07:56:10:627 [HTTP] <-- POST /wd/hub/session 200 35793 ms - 971
+2020-09-23 07:56:10:628 [HTTP] 
+2020-09-23 07:56:10:634 [HTTP] --> POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element
+2020-09-23 07:56:10:634 [HTTP] {"using":"id","value":"com.miui.calculator:id/btn_1_s"}
+2020-09-23 07:56:11:454 [HTTP] <-- POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element 200 820 ms - 137
+2020-09-23 07:56:11:455 [HTTP] 
+2020-09-23 07:56:11:458 [HTTP] --> POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element/ada168d3-ece8-4a37-bda1-96a731be36cb/click
+2020-09-23 07:56:11:459 [HTTP] {"id":"ada168d3-ece8-4a37-bda1-96a731be36cb"}
+2020-09-23 07:56:11:485 [HTTP] <-- POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element/ada168d3-ece8-4a37-bda1-96a731be36cb/click 200 25 ms - 14
+2020-09-23 07:56:11:485 [HTTP] 
+2020-09-23 07:56:11:489 [HTTP] --> POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element
+2020-09-23 07:56:11:490 [HTTP] {"using":"id","value":"com.miui.calculator:id/btn_plus_s"}
+2020-09-23 07:56:11:534 [HTTP] <-- POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element 200 44 ms - 137
+2020-09-23 07:56:11:535 [HTTP] 
+2020-09-23 07:56:11:538 [HTTP] --> POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element/f372844e-beec-4241-a6ca-552a280aa7db/click
+2020-09-23 07:56:11:538 [HTTP] {"id":"f372844e-beec-4241-a6ca-552a280aa7db"}
+2020-09-23 07:56:12:117 [HTTP] <-- POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element/f372844e-beec-4241-a6ca-552a280aa7db/click 200 579 ms - 14
+2020-09-23 07:56:12:118 [HTTP] 
+2020-09-23 07:56:12:120 [HTTP] --> POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element
+2020-09-23 07:56:12:121 [HTTP] {"using":"id","value":"com.miui.calculator:id/btn_1_s"}
+2020-09-23 07:56:12:323 [HTTP] <-- POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element 200 202 ms - 137
+2020-09-23 07:56:12:324 [HTTP] 
+2020-09-23 07:56:12:329 [HTTP] --> POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element/0ae83784-dafb-45dc-8a3e-7c18da77f8b3/click
+2020-09-23 07:56:12:329 [HTTP] {"id":"0ae83784-dafb-45dc-8a3e-7c18da77f8b3"}
+2020-09-23 07:56:12:909 [HTTP] <-- POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element/0ae83784-dafb-45dc-8a3e-7c18da77f8b3/click 200 580 ms - 14
+2020-09-23 07:56:12:910 [HTTP] 
+2020-09-23 07:56:12:914 [HTTP] --> POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element
+2020-09-23 07:56:12:914 [HTTP] {"using":"id","value":"com.miui.calculator:id/btn_equal_s"}
+2020-09-23 07:56:12:969 [HTTP] <-- POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element 200 55 ms - 137
+2020-09-23 07:56:12:969 [HTTP] 
+2020-09-23 07:56:12:972 [HTTP] --> POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element/395f4dd3-b238-45f1-885f-4ab6d53dc6be/click
+2020-09-23 07:56:12:973 [HTTP] {"id":"395f4dd3-b238-45f1-885f-4ab6d53dc6be"}
+2020-09-23 07:56:13:551 [HTTP] <-- POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element/395f4dd3-b238-45f1-885f-4ab6d53dc6be/click 200 578 ms - 14
+2020-09-23 07:56:13:552 [HTTP] 
+2020-09-23 07:56:13:556 [HTTP] --> POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element
+2020-09-23 07:56:13:557 [HTTP] {"using":"id","value":"com.miui.calculator:id/result"}
+2020-09-23 07:56:13:602 [HTTP] <-- POST /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element 200 46 ms - 137
+2020-09-23 07:56:13:603 [HTTP] 
+2020-09-23 07:56:13:609 [HTTP] --> GET /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element/c4664b1b-64e8-40dd-a17f-d6cca9946463/attribute/text
+2020-09-23 07:56:13:610 [HTTP] {}
+2020-09-23 07:56:14:222 [HTTP] <-- GET /wd/hub/session/75b92757-890b-40da-9a9b-e83c0804472e/element/c4664b1b-64e8-40dd-a17f-d6cca9946463/attribute/text 200 612 ms - 15
+2020-09-23 07:56:14:223 [HTTP] 
+2020-09-23 07:56:30:853 uncaughtException: EPIPE: broken pipe, write
+Error: EPIPE: broken pipe, write
+    at Socket._write (internal/net.js:54:25)
+    at doWrite (_stream_writable.js:403:12)
+    at writeOrBuffer (_stream_writable.js:387:5)
+    at Socket.Writable.write (_stream_writable.js:318:11)
+    at Console.log (C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:51:25)
+    at Console._write (C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\index.js:103:17)
+    at doWrite (C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:428:64)
+    at writeOrBuffer (C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:417:5)
+    at Console.Writable.write (C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\winston-transport\node_modules\readable-stream\lib\_stream_writable.js:334:11)
+    at DerivedLogger.ondata (C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:681:20)
+    at DerivedLogger.emit (events.js:327:22)
+    at addChunk (C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:298:12)
+    at readableAddChunk (C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:280:11)
+    at DerivedLogger.Readable.push (C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_readable.js:241:10)
+    at DerivedLogger.Transform.push (C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\readable-stream\lib\_stream_transform.js:139:32)
+    at DerivedLogger._transform (C:\Users\lixuewen\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:305:12)
